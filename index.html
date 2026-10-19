@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Little Universe for Himairi ♡</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="stars" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#home">♡ for himairi</a>
+    <nav>
+      <a href="#little-things">Little things</a>
+      <a href="#letter">Letter</a>
+      <a href="#final-note">Birthday wish</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="eyebrow">A tiny corner of the internet, just for you</div>
+      <h1>Hey, Himairi <span class="pink">♡</span></h1>
+      <p class="hero-copy">I made you a little something<br>for your very special day.</p>
+      <div class="envelope-wrap">
+        <button class="envelope" id="openEnvelope" aria-label="Open your birthday surprise">
+          <span class="envelope-flap"></span>
+          <span class="envelope-heart">♥</span>
+        </button>
+        <p class="hint" id="envelopeHint">Tap the envelope to begin ✨</p>
+      </div>
+      <a class="scroll-link" href="#little-things">There's more below ↓</a>
+    </section>
+
+    <section class="section intro-section" id="little-things">
+      <p class="eyebrow">A few things I wanted you to know</p>
+      <h2>Little things about you <span class="pink">♡</span></h2>
+      
+      <div class="note-grid">
+        <article class="note-card tilt-one">
+          <span class="card-icon">✿</span>
+          <h3>Your kind of magic</h3>
+          <p>There's something about talking to you that can make an ordinary day feel a little less ordinary.</p>
+        </article>
+        <article class="note-card tilt-two">
+          <span class="card-icon">☾</span>
+          <h3>The little details</h3>
+          <p>I like getting to know the little things that make you <em>you</em> — even the random ones.</p>
+        </article>
+        <article class="note-card tilt-three">
+          <span class="card-icon">♡</span>
+          <h3>No pressure, just this</h3>
+          <p>I'm glad our paths crossed. I'm excited to keep learning about you, one conversation at a time.</p>
+        </article>
+      </div>
+      <p class="tiny-caption"> You are allowed to smile at this. It's in the rules. (I made the rules.)</p>
+    </section>
+
+    <section class="section memory-section">
+      <p class="eyebrow">A little reminder</p>
+      <h2>Distance is a funny thing</h2>
+      <div class="memory-card">
+        <div class="moon-art" aria-hidden="true">☾</div>
+        <p>Different cities, different days,<br>but somehow our conversations<br>still find their way to each other.</p>
+        <span class="scribble">And I think that's pretty lovely.</span>
+      </div>
+      
+    </section>
+
+    <section class="section letter-section" id="letter">
+      <p class="eyebrow">Open when you're ready</p>
+      <h2>A little letter for you <span class="pink">♡</span></h2>
+      <button class="letter-button" id="letterButton">
+        <span class="letter-icon">✉</span>
+        <span>Tap to read your letter</span>
+      </button>
+      <article class="letter-paper hidden" id="letterPaper">
+        <p>Hi Himairi,</p>
+        <p>I don't know if I can make your birthday feel less far away, but I wanted to make you something that could travel the distance.</p>
+        <p>I'm really glad I've gotten to know you. I like our conversations(Ya , even the "PATA NHI YWRRRR"), the little moments, and the fact that there's still so much left for us to discover about each other.</p>
+        <p>I hope this next year brings you reasons to laugh (me) until your cheeks hurt, people who make you feel appreciated, and plenty of moments that remind you how lovely life can be.</p>
+        <p>And yeahh just dont overthink ur doing amazing and just take care , pay attention to your health and chillll XDD</p>
+        <p class="letter-signoff">Happy birthday, Himairi. ♡<br><span>— someone who's really glad to know you</span></p>
+      </article>
+    </section>
+
+    <section class="section song-section">
+      <p class="eyebrow">A soundtrack for your day</p>
+      <h2>One song, just for the vibe ♫</h2>
+      
+      <div class="music-card">
+        <div class="record" aria-hidden="true">♫</div>
+        <div class="music-info">
+          <strong>Your Fav Song Right??????</strong>
+          
+          <audio id="birthdaySong" controls preload="none">
+            <source src="From The Start.mp3" type="audio/mpeg">
+            
+          </audio>
+        </div>
+      </div>
+    </section>
+
+    <section class="section final-section" id="final-note">
+      <div class="sparkle">✧ &nbsp; ✦ &nbsp; ✧</div>
+      <p class="eyebrow">And one last thing...</p>
+      <h2>Happy Birthday,<br><span class="script pink">Himairi</span> ♡</h2>
+      <p class="final-copy">I hope today is gentle with you,<br>full of little joys and big smiles.</p>
+      <button class="surprise-button" id="surpriseButton">One last tiny surprise ✨</button>
+      <div class="hidden final-reveal" id="finalReveal">
+        <p>I'm rooting for you, always.</p>
+        <p class="big-heart">♡</p>
+        <p>Have the loveliest birthday.</p>
+      </div>
+      
+    </section>
+  </main>
+
+  <footer>For Himairi · October 27</footer>
+  <script src="script.js"></script>
+</body>
+</html>
